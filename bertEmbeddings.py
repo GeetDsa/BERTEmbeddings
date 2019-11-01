@@ -6,7 +6,7 @@ import numpy as np
 
 LAYERS = [-1]
 MAX_SEQ_LENGTH = 256
-BERT_PRETRAINED_DIR= '/home1/adsa/bert_base_uncased'
+BERT_PRETRAINED_DIR= '<add path>/bert_base_uncased'
 BERT_CONFIG = BERT_PRETRAINED_DIR + '/bert_config.json'
 CHKPT_DIR = BERT_PRETRAINED_DIR + '/bert_model.ckpt'
 VOCAB_FILE = BERT_PRETRAINED_DIR + '/vocab.txt'
