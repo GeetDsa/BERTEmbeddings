@@ -7,4 +7,7 @@ This program puts everything in a single chunk, and allows to be executed on CPU
 
 It uses `modeling.py` and `tokenization.py` from the original implementation of bert.
 
-Also, please change the path to BERT base model in `bertEmbeddings.py` file
+Also, please change the path at `BERT_PRETRAINED_DIR=` in `bertEmbeddings.py` file to point to BERT model.
+
+
+`sample_usage_bert_embeddings.py` shows the sample usage of the program.
