@@ -5,6 +5,6 @@ The program has been derived from the tutorial, https://towardsdatascience.com/n
 
 This program puts everything in a single chunk, and allows to be executed on CPU/GPU instead of TPU.
 
-It uses modeling.py and tokenization.py from the original implementation of bert.
+It uses `modeling.py` and `tokenization.py` from the original implementation of bert.
 
 Also, please change the path to BERT base model in `bertEmbeddings.py` file
